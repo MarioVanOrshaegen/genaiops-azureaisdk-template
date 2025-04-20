@@ -74,7 +74,17 @@ PROJECT_NAME: "your-project-name"
 USER_CLIENT_ID: "your-client-id"
 CONNECTION_STRING: "your-connection-string"
 PROMPTY_FILE: "prompty.yaml"
+
+### Additional configuration for Semantic Kernel agent with AI Foundry 
+AZURE_AI_AGENT_PROJECT_CONNECTION_STRING: "your-connection-string"
+AZURE_AI_AGENT_MODEL_DEPLOYMENT_NAME: your-deployment-name
+AZURE_AI_AGENT_ENDPOINT: https://xxxdomain.openai.azure.com/
+AZURE_AI_AGENT_SUBSCRIPTION_ID: your-subscription-id
+AZURE_AI_AGENT_RESOURCE_GROUP_NAME: your-resource-group
+AZURE_AI_AGENT_PROJECT_NAME: your-project-name
+
 ```
+NOTE: AZURE_AI_AGENT_ENDPOINT value is available from Azure AI Foundry Overview page under Endpoints and keys section associated with Azure OpenAI Service key
 
 ## 3. Workflow Configurations
 
