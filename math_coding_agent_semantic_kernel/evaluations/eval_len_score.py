@@ -42,10 +42,3 @@ def eval_run_eval(
         output_path=f"{output_path}/{name}_math_len.json"
     )
     return result
-
-if __name__ == "__main__":
-    # Test the math response
-    load_dotenv()
-    QUESTION = ["Hello", "Find (24^{-1} pmod{11^2})??"]
-    result = eval_run_eval("aa", "/Users/riteshmodi/projects/1704/genaifoundry/genaiops-azureaisdk-template/math_coding_agent_semantic_kernel/data/math_data_len.jsonl", "column_mapping", "./")
-    print(result)
